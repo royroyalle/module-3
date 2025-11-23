@@ -15,13 +15,13 @@ abc = input("Enter:")
 num1 = int(input("Enter your first number"))
 num2 = int(input("\n Enter your second number"))
 
-if abc == 'Addition' or 'addition':
+if abc == 'Addition':
     print("Your answer is:", add(num1, num2))
-elif abc == 'Substraction' or 'substraction':
+elif abc == 'Substraction' or abc =='substraction':
     print("Your anwer is:", sub(num1, num2))
-elif abc == 'Multiplication' or 'multiplication':
+elif abc == 'Multiplication' or abc == 'multiplication':
     print("Your anwer is:", mul(num1, num2))
-elif abc == 'Divison' or 'divison':
+elif abc == 'Divison' or abc =='divison':
     print("Your anwer is:", div(num1, num2))
 else:
     print("Invaild Inputs")
